@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 50774239}
   - component: {fileID: 50774238}
   - component: {fileID: 50774237}
+  - component: {fileID: 50774241}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -231,6 +232,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 936054760}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &50774241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50774236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &70059997
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +256,7 @@ GameObject:
   - component: {fileID: 70060000}
   - component: {fileID: 70059999}
   - component: {fileID: 70059998}
+  - component: {fileID: 70060002}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -343,6 +357,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 936054760}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &70060002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70059997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &176909766
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +381,7 @@ GameObject:
   - component: {fileID: 176909769}
   - component: {fileID: 176909768}
   - component: {fileID: 176909767}
+  - component: {fileID: 176909771}
   m_Layer: 0
   m_Name: Obstacle (1)
   m_TagString: Untagged
@@ -455,6 +482,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 587481191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &176909771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176909766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +803,7 @@ GameObject:
   - component: {fileID: 525047843}
   - component: {fileID: 525047842}
   - component: {fileID: 525047841}
+  - component: {fileID: 525047845}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -864,6 +904,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 587481191}
   m_LocalEulerAnglesHint: {x: 0, y: -48.232, z: 0}
+--- !u!114 &525047845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525047840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &587481190
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +1012,7 @@ GameObject:
   - component: {fileID: 920275876}
   - component: {fileID: 920275875}
   - component: {fileID: 920275874}
+  - component: {fileID: 920275878}
   m_Layer: 0
   m_Name: Obstacle (2)
   m_TagString: Untagged
@@ -1060,6 +1113,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 587481191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &920275878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920275873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &936054759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,6 +1172,7 @@ GameObject:
   - component: {fileID: 1232755324}
   - component: {fileID: 1232755323}
   - component: {fileID: 1232755322}
+  - component: {fileID: 1232755326}
   m_Layer: 0
   m_Name: Obstacle (3)
   m_TagString: Untagged
@@ -1207,6 +1273,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 587481191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1232755326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232755321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1310319489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1297,7 @@ GameObject:
   - component: {fileID: 1310319492}
   - component: {fileID: 1310319491}
   - component: {fileID: 1310319490}
+  - component: {fileID: 1310319494}
   m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
@@ -1319,6 +1398,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 936054760}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1310319494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310319489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1444826671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1531,7 @@ GameObject:
   - component: {fileID: 1536702313}
   - component: {fileID: 1536702312}
   - component: {fileID: 1536702311}
+  - component: {fileID: 1536702315}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -1540,6 +1632,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 936054760}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1536702315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536702310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e685ec09356000b4183ebfeb282c3574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1598534174
 GameObject:
   m_ObjectHideFlags: 0
